@@ -1,27 +1,60 @@
-# AngularTodolist
+## Angular - Todo List
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.2.
+### Execução do projeto
 
-## Development server
+1. Faça instalação de dependências `npm i`
+2. Execute a aplicação com `npm start`
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+---
+### Detalhes
 
-## Code scaffolding
+O projeto Todo List é um desafio de programação que visa criar uma aplicação para gerenciar listas de tarefas.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+---
+### Funcionalidades
 
-## Build
+Aplicação deve ser capaz de:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Listar todos os todos
+- Editar os todos
+- Deletar os todos
+- Adicionar novo todo
+- Filtrar os todos como "todos", "completos" e "incompletos"
 
-## Running unit tests
+---
+### Detalhes da API interna
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+**Detalhes**
 
-## Running end-to-end tests
+- **URL base:** http://localhost:3001/todos
+- **Métodos que será usado:** 
+  - `GET`: `http://localhost:3001/todos` ou `http://localhost:3001/todos/<id>`
+  - `POST`: `http://localhost:3001/todos`
+  - `PATCH`: `http://localhost:3001/todos`
+  - `DELETE`: `http://localhost:3001/todos/<id>`
+  - `GET / Filter`: `http://localhost:3001/todos?completed=false`
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+> **Atenção:** ao executar algum método de alteração de conteúdo, será refletido no arquivo `api/db.json`
 
-## Further help
+**Retorno**
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```json
+[
+  {
+    "userId": 1,
+    "id": 2,
+    "title": "Cuidadar da planta",
+    "completed": false
+  },
+  {
+    "userId": 2,
+    "id": 4,
+    "title": "ler as notícias",
+    "completed": false
+  }
+]
+```
+
+---
+### Resultado final
+![Todo list](./resources/todolist.png)

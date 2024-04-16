@@ -1,0 +1,202 @@
+{
+  "todos": [
+    {
+      "userId": 1,
+      "id": 1,
+      "title": "comprar pão e leite",
+      "completed": false
+    },
+    {
+      "userId": 1,
+      "id": 2,
+      "title": "pagar as contas do mês",
+      "completed": false
+    },
+    {
+      "userId": 1,
+      "id": 3,
+      "title": "marcar consulta no dentista",
+      "completed": false
+    },
+    {
+      "userId": 1,
+      "id": 4,
+      "title": "fazer exercícios físicos",
+      "completed": true
+    },
+    {
+      "userId": 1,
+      "id": 5,
+      "title": "ler um livro novo",
+      "completed": false
+    },
+    {
+      "userId": 1,
+      "id": 6,
+      "title": "ligar para os amigos",
+      "completed": false
+    },
+    {
+      "userId": 1,
+      "id": 7,
+      "title": "organizar o guarda-roupa",
+      "completed": false
+    },
+    {
+      "userId": 1,
+      "id": 8,
+      "title": "assistir a um filme",
+      "completed": true
+    },
+    {
+      "userId": 1,
+      "id": 9,
+      "title": "estudar para a prova",
+      "completed": false
+    },
+    {
+      "userId": 1,
+      "id": 10,
+      "title": "fazer uma viagem",
+      "completed": true
+    },
+    {
+      "userId": 1,
+      "id": 11,
+      "title": "trocar o óleo do carro",
+      "completed": true
+    },
+    {
+      "userId": 1,
+      "id": 12,
+      "title": "cuidar das plantas",
+      "completed": false
+    },
+    {
+      "userId": 1,
+      "id": 13,
+      "title": "doar roupas usadas",
+      "completed": false
+    },
+    {
+      "userId": 1,
+      "id": 14,
+      "title": "fazer um bolo",
+      "completed": true
+    },
+    {
+      "userId": 1,
+      "id": 15,
+      "title": "aprender um idioma",
+      "completed": true
+    },
+    {
+      "userId": 1,
+      "id": 16,
+      "title": "meditar",
+      "completed": true
+    },
+    {
+      "userId": 1,
+      "id": 17,
+      "title": "escrever um diário",
+      "completed": true
+    },
+    {
+      "userId": 1,
+      "id": 18,
+      "title": "ir ao mercado",
+      "completed": false
+    },
+    {
+      "userId": 1,
+      "id": 19,
+      "title": "limpar a casa",
+      "completed": true
+    },
+    {
+      "userId": 1,
+      "id": 20,
+      "title": "comprar um presente",
+      "completed": true
+    },
+    {
+      "userId": 2,
+      "id": 21,
+      "title": "fazer um curso online",
+      "completed": false
+    },
+    {
+      "userId": 2,
+      "id": 22,
+      "title": "visitar os pais",
+      "completed": true
+    },
+    {
+      "userId": 2,
+      "id": 23,
+      "title": "ir ao cinema",
+      "completed": false
+    },
+    {
+      "userId": 2,
+      "id": 24,
+      "title": "comprar ração para o cachorro",
+      "completed": false
+    },
+    {
+      "userId": 2,
+      "id": 25,
+      "title": "fazer um jantar especial",
+      "completed": true
+    },
+    {
+      "userId": 2,
+      "id": 26,
+      "title": "tirar fotos",
+      "completed": true
+    },
+    {
+      "userId": 2,
+      "id": 27,
+      "title": "ir ao parque",
+      "completed": true
+    },
+    {
+      "userId": 2,
+      "id": 28,
+      "title": "fazer as unhas",
+      "completed": false
+    },
+    {
+      "userId": 2,
+      "id": 29,
+      "title": "assistir a uma série",
+      "completed": false
+    },
+    {
+      "userId": 2,
+      "id": 30,
+      "title": "tocar um instrumento",
+      "completed": true
+    },
+    {
+      "userId": 2,
+      "id": 31,
+      "title": "fazer uma caminhada",
+      "completed": false
+    },
+    {
+      "userId": 2,
+      "id": 32,
+      "title": "ler as notícias",
+      "completed": false
+    },
+    {
+      "userId": 2,
+      "id": 33,
+      "title": "fazer um piquenique",
+      "completed": false
+    }
+  ]
+}

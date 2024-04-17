@@ -8,7 +8,7 @@
 ---
 ### Detalhes
 
-O projeto Todo List é um desafio de programação que visa criar uma aplicação para gerenciar listas de tarefas.
+Este projeto consiste em um desafio de programação com o objetivo de desenvolver uma aplicação Angular para gerenciar listas de tarefas (Todo List). O desafio deve ser realizado seguindo as melhores práticas de desenvolvimento.
 
 ---
 ### Funcionalidades

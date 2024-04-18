@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "npm-run-all -p -r start:serve api",
-    "start:serve": "ng serve",
+    "start:serve": "ng serve --host 0.0.0.0 --port 8000 --disable-host-check",
     "api": "json-server ./api/db.json --delay 2000 --port 3001",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",

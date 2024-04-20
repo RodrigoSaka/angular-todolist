@@ -26,28 +26,29 @@ Aplicação deve ser capaz de:
 
 **Detalhes**
 
-- **URL base:** http://localhost:3001/todos
+- **URL base:** https://api.fake.com
 - **Métodos que será usado:** 
-  - `GET`: `http://localhost:3001/todos` ou `http://localhost:3001/todos/<id>`
-  - `POST`: `http://localhost:3001/todos`
-  - `PATCH`: `http://localhost:3001/todos`
-  - `DELETE`: `http://localhost:3001/todos/<id>`
-  - `GET / Filter`: `http://localhost:3001/todos?completed=false`
-
-> **Atenção:** ao executar algum método de alteração de conteúdo, será refletido no arquivo `api/db.json`
+  - `GET`: `https://api.fake.com/todos` ou `https://api.fake.com/todos/<id>`
+  - `POST`: `https://api.fake.com/todos`
+    - Possiveis parâmetros do body
+      - title: string
+  - `PATCH`: `https://api.fake.com/todos/<id>`
+    - Possiveis parâmetros do body
+      - completed: boolean
+      - title: string
+  - `DELETE`: `https://api.fake.com/todos/<id>`
+  - `GET / Filter`: `https://api.fake.com/todos?completed=false`
 
 **Retorno**
 
 ```json
 [
   {
-    "userId": 1,
     "id": 2,
     "title": "Cuidadar da planta",
     "completed": false
   },
   {
-    "userId": 2,
     "id": 4,
     "title": "ler as notícias",
     "completed": false

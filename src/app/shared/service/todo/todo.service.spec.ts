@@ -21,6 +21,6 @@ describe('TodoService', () => {
   it('should get todos', () => {
     service.todos();
 
-    expect(http.get).toHaveBeenCalledWith('http://localhost:3001/todos');
+    expect(http.get).toHaveBeenCalledWith('https://api.fake.com/todos');
   });
 });

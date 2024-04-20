@@ -30,9 +30,9 @@ describe('AppComponent', () => {
   });
 
   it('ngOnInit should get todos', () => {
-    const todos: Todo[] = [{ id: 1, userId: 2, title: 'Todo 1', completed: false }];
+    const todos: Todo[] = [{ id: 1, title: 'Todo 1', completed: false }];
 
-    jest.spyOn(todosService, 'todos').mockReturnValueOnce(of(todos));
+    jest.spyOn(todosService, 'todos').mockReturnValueOnce(of({ data: todos }));
 
     component.ngOnInit();
 

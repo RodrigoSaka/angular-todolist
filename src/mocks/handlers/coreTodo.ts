@@ -1,6 +1,6 @@
 import { Todo } from '@shared/service';
 
-const sessionStorageKey = 'todos';
+const sessionStorageKey = 'zp-angular-todos';
 const todosCore = [
   {
     id: 1,
@@ -169,7 +169,9 @@ const todosCore = [
   }
 ];
 
-saveTodos(todosCore);
+const alreadyHasTodos = sessionStorage.getItem(sessionStorageKey);
+
+!alreadyHasTodos && saveTodos(todosCore);
 
 export function getTodosCore(completed?: boolean) {
   const todos = getTodos();

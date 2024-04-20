@@ -1,7 +1,9 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { AppComponent } from './app.component';
+import { provideIcons } from '@ng-icons/core';
+import { heroPencil } from '@ng-icons/heroicons/outline';
 import { Todo, TodoService } from '@shared/service';
 import { of } from 'rxjs';
+import { AppComponent } from './app.component';
 
 describe('AppComponent', () => {
   let component: AppComponent;
@@ -15,7 +17,7 @@ describe('AppComponent', () => {
 
     TestBed.overrideComponent(AppComponent, {
       set: {
-        providers: [{ provide: TodoService, useValue: { todos: () => of([]) } }]
+        providers: [{ provide: TodoService, useValue: { todos: () => of([]) } }, provideIcons({ heroPencil })]
       }
     });
 

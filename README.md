@@ -4,16 +4,17 @@
 
 1. Faça instalação de dependências `npm i`
 2. Execute a aplicação com `npm start`
+3. Para testes execute `npm test`
 
 ---
 ### Detalhes
 
-Este projeto consiste em um desafio de programação com o objetivo de desenvolver uma aplicação Angular para gerenciar listas de tarefas (Todo List). O desafio deve ser realizado seguindo as melhores práticas de desenvolvimento.
+Este projeto consiste em um desafio de programação com o objetivo de desenvolver uma aplicação Angular para gerenciar listas de tarefas (Todo List), seguindo as melhores práticas de desenvolvimento.
 
 ---
-### Funcionalidades
+### Seu objetivo
 
-Aplicação deve ser capaz de:
+#### Funcionalidades
 
 - Listar todos os todos
 - Editar os todos
@@ -21,25 +22,39 @@ Aplicação deve ser capaz de:
 - Adicionar novo todo
 - Filtrar os todos como "todos", "completos" e "incompletos"
 
+#### Estrutura
+
+- Fique à vontade para organizar o projeto da forma que achar melhor.
+
+#### Ícones
+
+- Utilize a biblioteca pré-instalada `@ng-icons/core` em conjunto com `@ng-icons/heroicons`.
+- Documentação oficial disponível [aqui](https://github.com/ng-icons/ng-icons).
+- Coleção de ícones do Heroicons disponível [aqui](https://heroicons.com/).
+
+**Testes**
+
+- Crie os testes unitários para seus componentes e serviços.
+
 ---
 ### Detalhes da API interna
 
-**Detalhes**
+#### Detalhes
 
-- **URL base:** https://api.fake.com
-- **Métodos que será usado:** 
+- **URL Base:** https://api.fake.com
+- **Métodos Utilizados:**
   - `GET`: `https://api.fake.com/todos` ou `https://api.fake.com/todos/<id>`
   - `POST`: `https://api.fake.com/todos`
-    - Possiveis parâmetros do body
+    - Parâmetros possíveis do corpo da requisição:
       - title: string
   - `PATCH`: `https://api.fake.com/todos/<id>`
-    - Possiveis parâmetros do body
+    - Parâmetros possíveis do corpo da requisição:
       - completed: boolean
       - title: string
   - `DELETE`: `https://api.fake.com/todos/<id>`
   - `GET / Filter`: `https://api.fake.com/todos?completed=false`
 
-**Retorno**
+#### Retorno
 
 ```json
 [
@@ -58,4 +73,7 @@ Aplicação deve ser capaz de:
 
 ---
 ### Resultado final
+
+**Observação:** O layout é apenas ilustrativo. Sinta-se à vontade para melhorá-lo ou criar algo semelhante.
+
 ![Todo list](./resources/todolist.png)

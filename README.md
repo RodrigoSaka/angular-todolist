@@ -78,3 +78,12 @@ Este projeto consiste em um desafio de programação com o objetivo de desenvolv
 **Observação:** O layout é apenas ilustrativo. Sinta-se à vontade para melhorá-lo ou criar algo semelhante.
 
 ![Todo list](./resources/todolist.png)
+
+---
+### Restauração do mock
+
+Mocks são salvos no session storage do browser. Para restaurar o estado original, basta limpar a chave de "sessionStorage" associada aos mocks.
+
+```js
+window.sessionStorage.removeItem('zp-angular-todos')
+```

@@ -1,6 +1,7 @@
+import { environment } from '@shared/env';
 import { Todo } from '@shared/service';
 
-const sessionStorageKey = 'zp-angular-todos';
+const sessionStorageKey = environment.sessionKey;
 const todosCore = [
   {
     id: 1,

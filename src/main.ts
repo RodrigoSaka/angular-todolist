@@ -7,7 +7,7 @@ async function prepare() {
   if (environment.mock) {
     const { worker } = await import('./mocks/browser');
 
-    return worker.start();
+    return worker.start({ onUnhandledRequest: 'bypass' });
   }
 
   return Promise.resolve();

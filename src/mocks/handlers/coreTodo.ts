@@ -177,8 +177,8 @@ const alreadyHasTodos = sessionStorage.getItem(sessionStorageKey);
 export function getTodosCore(completed?: boolean) {
   const todos = getTodos();
 
-  if (completed) {
-    return todos.filter(todo => todo.completed);
+  if (completed !== undefined) {
+    return todos.filter(todo => todo.completed === completed);
   }
 
   return todos;

@@ -1,5 +1,7 @@
 <h1 class="center">Todo list <ng-icon name="heroPencil" color="#000"></ng-icon></h1>
 
 <ul>
-  <li *ngFor="let todo of todos">Id: {{ todo.id }} - {{ todo.title }}</li>
+  @for (todo of todos; track todo.id){
+  <li>Id: {{ todo.id }} - {{ todo.title }}: Completed '{{ todo.completed ? 'true' : 'false' }}'</li>
+  }
 </ul>
